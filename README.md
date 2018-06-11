@@ -44,6 +44,10 @@ All the apis are exposed over rest and swagger integrated. This (localhost:8080/
 * **Guava** - *Guava is used for caching the as there is no need to store the data in database. Guava has its own internal eviction event, which would remove the elments after specified internal. Guava is quick when it comes to development and matched the requirement. There are other Caching like Redis,EHCache, Infinispan etc*
 * **Swagger** - *Swagger gives nice api documentation and can be smoothly integrated. Also, gives an opportunity to test the code seamlessly*
 
+# Exceptions
+* have created a custom exception
+* have also created the handler to cater to exceptions and generate appropriate response
+
 # Tests
 * tests have been written for RestServices, Service and Repositories using Mockito, BDDMockito, Hamcrest, TestNg, MockMvc
 
